@@ -42,12 +42,6 @@ Go ile lightning-fast sistemler kuruyor, Python ile akıllı çözümler üretiy
 ![FFmpeg](https://img.shields.io/badge/-FFmpeg-007808?style=flat&logo=ffmpeg&logoColor=white)
 ![WebRTC](https://img.shields.io/badge/-WebRTC-333333?style=flat&logo=webrtc&logoColor=white)
 
-## 📈 GitHub İstatistikleri
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Ahmetshbzz&show_icons=true&theme=tokyonight)
-
-## 🔥 Streak İstatistikleri
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Ahmetshbzz&theme=dark)](https://git.io/streak-stats)
-
 ## 📫 İletişim
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmet-şahbazoğlu)
