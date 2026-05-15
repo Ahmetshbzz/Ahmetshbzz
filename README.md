@@ -65,7 +65,7 @@ Go ve Python ile yüksek performanslı dağıtık sistemler inşa ediyorum. gRPC
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/velyo.xyz-000000?style=for-the-badge&logo=globe&logoColor=white)](https://www.velyo.xyz)
+[![Website](https://img.shields.io/badge/ahmetshbzz.com-000000?style=for-the-badge&logo=globe&logoColor=white)](https://ahmetshbzz.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmet-%C5%9Fahbazo%C4%9Flu-77701917a)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ahmetshbzx)
 [![Email](https://img.shields.io/badge/Mail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:ahmetcanshbz@proton.me)
