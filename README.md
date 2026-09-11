@@ -1,10 +1,12 @@
 <div align="center">
 
-# Ahmet Şahbazoğlu
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Ahmet Şahbazoğlu — Backend & Systems Engineer" src="assets/hero-light.svg" width="100%">
+</picture>
 
-**Backend Engineer · Systems Developer**
-
-Warsaw, Poland
+![Teknoloji yığını](assets/marquee.svg)
 
 </div>
 
@@ -12,9 +14,37 @@ Warsaw, Poland
 
 Go ve Python ile yüksek performanslı dağıtık sistemler inşa ediyorum. gRPC, OpenTelemetry ve event-driven mimarilerle production-grade servisler yazıyorum. Mobil tarafta React Native ve Swift ile native deneyimler geliştiriyorum; sistem seviyesinde ise eBPF ve düşük seviyeli ağ araçlarıyla çalışıyorum.
 
-Şu an **Lexa**'yı geliştiriyor, açık kaynak projelerime devam ediyorum.
-
 ---
+
+## Neler yapabiliyorum
+
+İşin tamamını üstleniyorum: veri modeli ve doğruluğu, onu taşıyan çalışma zamanı ve insanların gerçekten dokunduğu arayüz. Aşağıdaki liste hangi müşteri için olduğunu değil, neyi sahiplenebildiğimi anlatır.
+
+> İşlerin bir kısmı gizlilik kapsamında; bu yüzden isimler, kapsam ve sonuçlar bilinçli olarak dışarıda bırakıldı. Burada anlatılan yetenek.
+
+| Yetenek | Kapsam |
+|---|---|
+| **Para doğruluğu gerektiren çekirdekler** | Tek bir minor unit'in sapmasına izin verilmeyen defterler: çift kayıtlı kayıtlar, tamsayı tutarlar, idempotency anahtarları ve maker-checker onayı. Mutabakat elle yapılan bir ritüel değil, kanıt üreten zamanlanmış bir iştir. |
+| **Çok kiracılı platformlar** | Sınırları çizilmiş bağlamlara ayrılmış modüler monolitler, veritabanı seviyesinde zorlanan tenant izolasyonu ve fail-closed yapılandırma. Outbox, saga, dead-letter yönetimi ve leader election, tekrar denemeler altında asenkron işi doğru tutar. |
+| **Gerçek zamanlı medya ve veri hatları** | Belirlenimci zaman damgalarıyla çok kaynaklı alım, kompozisyon, kodlama ve paketleme. Medya çekirdeği, akış başına süreç başlatmak yerine fork'lanmış kütüphanelere süreç içinde bağlanır. |
+| **Kimlik ve yetkilendirme** | Passkey, ikinci faktör, anahtar rotasyonu ve mühürlü kimlik bilgisi. Makine erişimi ile insan oturumu ayrı kalır; güven, iletilen bir başlıktan değil doğrudan soketten kararlaştırılır. |
+| **Yapay zeka ajan sistemleri** | Araç orkestrasyonu, vektör ve grafik depolar üzerinde kalıcı hafıza ve birinci sınıf arayüz olarak MCP sunucuları içeren çok servisli ajan platformları. |
+| **Apple platform uygulamaları** | iOS ve macOS üzerinde native SwiftUI: menü çubuğu araçları, izin onboarding'i, Keychain destekli sırlar, konuşma ve ses yakalama ve incelemeden geçen dağıtım. |
+| **Düşük seviyeli sistem ve güvenlik** | eBPF, TUN yığınları ve raw socket ile çekirdek ve ağ seviyesinde mühendislik; ayrıca yetkili değerlendirme: tehdit modelleme, tersine mühendislik ve tekrarlanabilir kanıt taşıyan raporlar. |
+| **Tarayıcı otomasyonu ve kanıtlı araçlar** | Gerçek yapıyı çıkaran, onu belirlenimci biçimde yeniden kuran ve başarı iddia etmek yerine sonucu pixel diff ile kanıtlayan başsız otomasyon. |
+
+![Bölüm ayracı](assets/divider.svg)
+
+## Açık kaynak
+
+| Proje | Ne yapar | |
+|---|---|---|
+| **[ctx-agent](https://github.com/Ahmetshbzz/ctx-agent)** | Universal Agent Context Protocol. AI ajanlarının kod tabanını çalıştırmadan anlamasını sağlar; tek binary, SQLite, offline. LLM yok, bulut yok. | `Rust` ★10 |
+| **[anthropic-turkce-courses](https://github.com/Ahmetshbzz/anthropic-turkce-courses)** | Anthropic'in resmi eğitim materyallerinin Türkçe çevirisi. | `Jupyter` ★19 |
+| **[voicman](https://github.com/Ahmetshbzz/voicman)** | macOS menü çubuğu dikte uygulaması. Global kısayol, Apple Speech ile canlı transkripsiyon, aktif uygulamaya yapıştırma. | `Swift` |
+| **[web-search-mcp](https://github.com/Ahmetshbzz/web-search-mcp)** | Ajan öncelikli MCP sunucusu: çok sağlayıcılı web araması, içerik çıkarma ve tarayıcı otomasyonu. | `Python` |
+| **[DockNest](https://github.com/Ahmetshbzz/DockNest)** | macOS Dock launcher'ı. Kurulu geliştirici araçlarını metadata'dan keşfeder, sürükle-bırak ile açar. Telemetri yok, ağ erişimi yok. | `Swift` |
+| **[json](https://github.com/Ahmetshbzz/json)** | Tarayıcı eklentisi: JSON verisini okunaklı biçimde görüntüler. Açık/koyu tema, API performans metrikleri, dışa aktarma. | `JavaScript` |
 
 ## Teknoloji
 
@@ -44,20 +74,17 @@ Go ve Python ile yüksek performanslı dağıtık sistemler inşa ediyorum. gRPC
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 
----
+## Katkı grafiği
 
-## Projeler
+<div align="center">
 
-| Proje | Açıklama |
-|---|---|
-| **[ctx-agent](https://github.com/Ahmetshbzz/ctx-agent)** | Universal Agent Context Protocol — AI agent'lar için canlı codebase zekası |
-| **[gecit](https://github.com/Ahmetshbzz/gecit)** | DPI bypass aracı — Linux'ta eBPF, macOS/Windows'ta TUN |
-| **[DockNest](https://github.com/Ahmetshbzz/DockNest)** | macOS native dock yönetim uygulaması |
-| **[voicman](https://github.com/Ahmetshbzz/voicman)** | Gerçek zamanlı ses uygulaması |
-| **[Synapse](https://github.com/Ahmetshbzz/Synapse)** | macOS & iOS clipboard manager — geçmiş, snippet, global kısayol |
-| **[orbis](https://github.com/Ahmetshbzz/orbis)** | Multi-tenant SaaS platformu |
-| **[ShipBridge](https://github.com/Ahmetshbzz/shipbridge-pl)** | Carrier-neutral shipping gateway |
-| **[anthropic-turkce-courses](https://github.com/Ahmetshbzz/anthropic-turkce-courses)** | Anthropic kurslarının Türkçe çevirisi |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ahmetshbzz/Ahmetshbzz/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ahmetshbzz/Ahmetshbzz/output/snake-light.svg">
+  <img alt="Katkı grafiği" src="https://raw.githubusercontent.com/Ahmetshbzz/Ahmetshbzz/output/snake-dark.svg">
+</picture>
+
+</div>
 
 ---
 
@@ -71,5 +98,3 @@ Go ve Python ile yüksek performanslı dağıtık sistemler inşa ediyorum. gRPC
 [![Email](https://img.shields.io/badge/Mail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:ahmetcanshbz@proton.me)
 
 </div>
-
-

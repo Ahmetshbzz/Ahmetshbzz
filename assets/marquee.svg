@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 54" width="1280" height="54" role="img" aria-label="Technology stack">
+  <defs>
+    <mask id="fade">
+      <linearGradient id="fadeGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#000" />
+        <stop offset="0.1" stop-color="#fff" />
+        <stop offset="0.9" stop-color="#fff" />
+        <stop offset="1" stop-color="#000" />
+      </linearGradient>
+      <rect width="1280" height="54" fill="url(#fadeGrad)" />
+    </mask>
+  </defs>
+  <g mask="url(#fade)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-2688 0" dur="42s" repeatCount="indefinite" />
+      <text x="84" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Go</text><circle cx="148" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="252" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Rust</text><circle cx="316" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="420" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Python</text><circle cx="484" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="588" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">TypeScript</text><circle cx="652" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="756" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Swift</text><circle cx="820" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="924" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">PostgreSQL</text><circle cx="988" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="1092" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Redis</text><circle cx="1156" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="1260" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">gRPC</text><circle cx="1324" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="1428" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">eBPF</text><circle cx="1492" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="1596" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Frida</text><circle cx="1660" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="1764" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Docker</text><circle cx="1828" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="1932" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">OpenTelemetry</text><circle cx="1996" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="2100" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Kotlin</text><circle cx="2164" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="2268" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Linux</text><circle cx="2332" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="2436" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Next.js</text><circle cx="2500" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="2604" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">React Native</text><circle cx="2668" cy="29" r="2" fill="#71717a" opacity="0.55" />
+      <text x="2772" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Go</text><circle cx="2836" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="2940" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Rust</text><circle cx="3004" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="3108" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Python</text><circle cx="3172" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="3276" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">TypeScript</text><circle cx="3340" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="3444" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Swift</text><circle cx="3508" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="3612" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">PostgreSQL</text><circle cx="3676" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="3780" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Redis</text><circle cx="3844" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="3948" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">gRPC</text><circle cx="4012" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="4116" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">eBPF</text><circle cx="4180" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="4284" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Frida</text><circle cx="4348" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="4452" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Docker</text><circle cx="4516" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="4620" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">OpenTelemetry</text><circle cx="4684" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="4788" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Kotlin</text><circle cx="4852" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="4956" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Linux</text><circle cx="5020" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="5124" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">Next.js</text><circle cx="5188" cy="29" r="2" fill="#71717a" opacity="0.55" />
+<text x="5292" y="34" text-anchor="middle" font-size="17" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" fill="#71717a">React Native</text><circle cx="5356" cy="29" r="2" fill="#71717a" opacity="0.55" />
+    </g>
+  </g>
+</svg>
