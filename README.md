@@ -40,14 +40,28 @@ I take the whole thing: the data model and its correctness, the runtime that car
 
 | Project | What it does | |
 |---|---|---|
-| **[claude-skills](https://github.com/Ahmetshbzz/claude-skills)** | Versioned skill catalog with primary-source references and eval suites. Includes the mobile RE workflow and the Frida hooking, SSL pinning and root/jailbreak bypass references I work from. | `Python` |
 | **[ctx-agent](https://github.com/Ahmetshbzz/ctx-agent)** | Universal Agent Context Protocol. Lets AI agents understand a codebase without running it; single binary, SQLite, offline. No LLM, no cloud. | `Rust` ★10 |
-| **[browser-guard](https://github.com/Ahmetshbzz/browser-guard)** | Framework-independent anti-inspection package for the web: debugger traps, inspection shortcut control, lifecycle-aware timers. States its own security boundary instead of implying a guarantee. | `TypeScript` |
 | **[anthropic-turkce-courses](https://github.com/Ahmetshbzz/anthropic-turkce-courses)** | Turkish translation of Anthropic's official course material. | `Jupyter` ★19 |
 | **[voicman](https://github.com/Ahmetshbzz/voicman)** | macOS menu bar dictation app. Global shortcut, live transcription with Apple Speech, paste into the active app. | `Swift` |
-| **[web-search-mcp](https://github.com/Ahmetshbzz/web-search-mcp)** | Agent-first MCP server: multi-provider web search, content extraction and browser automation. | `Python` |
 | **[DockNest](https://github.com/Ahmetshbzz/DockNest)** | macOS Dock launcher. Discovers installed developer tools from metadata and opens them by drag and drop. No telemetry, no network access. | `Swift` |
 | **[json](https://github.com/Ahmetshbzz/json)** | Browser extension: displays JSON readably. Light/dark theme, API performance metrics, export. | `JavaScript` |
+| **[apple-docs-mcp](https://github.com/Ahmetshbzz/apple-docs-mcp)** | MCP server and CLI for offline Apple Developer documentation search over Xcode's local index. | `Python` |
+
+![Section divider](assets/divider.svg)
+
+## Closed source and private work
+
+Most of what I build sits in private repositories, so there is nothing here to click. That does not make it less real — it is the bulk of the work, and it is where the interesting parts live.
+
+| Area | What it is |
+|---|---|
+| **Mobile security tooling** | A versioned catalog of reverse engineering and instrumentation references — mobile RE workflow, Frida hooking patterns, SSL pinning bypass, root and jailbreak bypass — with primary sources and eval suites, built to be executed rather than read. |
+| **Runtime protection** | Debugger and integrity checks in production services across environment, process and timing vectors, with self-hash verification and periodic re-checks instead of a one-shot gate. Also anti-inspection tooling for the web — debugger traps, inspection shortcut control, lifecycle-aware timers — derived from `disable-devtool` under its MIT license, with its boundary stated rather than implied. |
+| **Agent infrastructure** | A multi-provider search and extraction MCP server: 13 search providers, page extraction, headless rendering, deep research and site discovery. An Anthropic Messages API reverse proxy with model-based routing across provider clusters. |
+| **Live media platform** | Broadcast ingest and redistribution: multi-source receive, transcode, runtime-mutable graphics compositing, HLS/DASH re-emit. Rust core, deterministic pipeline. |
+| **AI companion platform** | Persistent memory, web browsing, MCP tools, realtime voice, a native iOS client and a multi-service backend. |
+| **Gaming platform** | Modular monolith with a Go RGS core, typed contracts between game client and server, studio tooling, and a security review cycle whose findings are tracked to closure rather than filed. |
+| **Banking sector integrations** | Polish and EU financial integrations in Go: invoice and clearing schemas, a carrier-neutral shipping gateway, multi-tenant SaaS. Dense validation, versioned schemas, and no retry that is not idempotent. |
 
 ## Technology
 

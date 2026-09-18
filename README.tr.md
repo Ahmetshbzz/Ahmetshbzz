@@ -40,14 +40,26 @@ Go, Python ve Rust ile yüksek performanslı dağıtık sistemler inşa ediyorum
 
 | Proje | Ne yapar | |
 |---|---|---|
-| **[claude-skills](https://github.com/Ahmetshbzz/claude-skills)** | Birincil kaynak referansları ve eval setleriyle sürümlenen skill kataloğu. Çalışırken kullandığım mobil RE iş akışı ile Frida hooking, SSL pinning ve root/jailbreak bypass referanslarını içerir. | `Python` |
 | **[ctx-agent](https://github.com/Ahmetshbzz/ctx-agent)** | Universal Agent Context Protocol. AI ajanlarının kod tabanını çalıştırmadan anlamasını sağlar; tek binary, SQLite, offline. LLM yok, bulut yok. | `Rust` ★10 |
-| **[browser-guard](https://github.com/Ahmetshbzz/browser-guard)** | Web için framework bağımsız inceleme önleyici paket: debugger tuzakları, inceleme kısayolu kontrolü, yaşam döngüsüne duyarlı zamanlayıcılar. Garanti ima etmek yerine kendi güvenlik sınırını yazar. | `TypeScript` |
 | **[anthropic-turkce-courses](https://github.com/Ahmetshbzz/anthropic-turkce-courses)** | Anthropic'in resmi eğitim materyallerinin Türkçe çevirisi. | `Jupyter` ★19 |
 | **[voicman](https://github.com/Ahmetshbzz/voicman)** | macOS menü çubuğu dikte uygulaması. Global kısayol, Apple Speech ile canlı transkripsiyon, aktif uygulamaya yapıştırma. | `Swift` |
-| **[web-search-mcp](https://github.com/Ahmetshbzz/web-search-mcp)** | Ajan öncelikli MCP sunucusu: çok sağlayıcılı web araması, içerik çıkarma ve tarayıcı otomasyonu. | `Python` |
 | **[DockNest](https://github.com/Ahmetshbzz/DockNest)** | macOS Dock launcher'ı. Kurulu geliştirici araçlarını metadata'dan keşfeder, sürükle-bırak ile açar. Telemetri yok, ağ erişimi yok. | `Swift` |
 | **[json](https://github.com/Ahmetshbzz/json)** | Tarayıcı eklentisi: JSON verisini okunaklı biçimde görüntüler. Açık/koyu tema, API performans metrikleri, dışa aktarma. | `JavaScript` |
+| **[apple-docs-mcp](https://github.com/Ahmetshbzz/apple-docs-mcp)** | Xcode'un yerel indeksi üzerinden çevrimdışı Apple Developer dokümantasyon araması için MCP sunucusu ve CLI. | `Python` |
+
+## Kapalı kaynak ve özel işler
+
+Yaptığım işlerin çoğu private repo'larda, yani tıklanacak bir şey yok. Bu onları daha az gerçek yapmıyor; işin büyük kısmı ve ilginç tarafları orada.
+
+| Alan | Nedir |
+|---|---|
+| **Mobil güvenlik araçları** | Tersine mühendislik ve enstrümantasyon referanslarının sürümlenen kataloğu — mobil RE iş akışı, Frida hooking kalıpları, SSL pinning bypass, root ve jailbreak bypass — birincil kaynaklar ve eval setleriyle; okunmak için değil çalıştırılmak için yazıldı. |
+| **Çalışma zamanı koruması** | Üretim servislerinde ortam, süreç ve zamanlama vektörlerinde hata ayıklayıcı ve bütünlük kontrolleri; tek seferlik bir kapı yerine self-hash doğrulaması ve periyodik yeniden kontrol. Ayrıca web için inceleme önleyici araçlar — debugger tuzakları, inceleme kısayolu kontrolü, yaşam döngüsüne duyarlı zamanlayıcılar — MIT lisanslı `disable-devtool`'dan türetildi ve sınırı ima edilmek yerine yazıldı. |
+| **Ajan altyapısı** | Çok sağlayıcılı arama ve içerik çıkarma MCP sunucusu: 13 arama sağlayıcısı, sayfa çıkarma, başsız render, derin araştırma ve site keşfi. Sağlayıcı kümeleri arasında model bazlı yönlendirme yapan bir Anthropic Messages API ters proxy'si. |
+| **Canlı medya platformu** | Yayın alımı ve yeniden dağıtımı: çok kaynaklı alım, transcode, çalışma zamanında değişebilen grafik kompozisyonu, HLS/DASH yeniden yayını. Rust çekirdek, belirlenimci hat. |
+| **Yapay zeka arkadaş platformu** | Kalıcı hafıza, web tarama, MCP araçları, gerçek zamanlı ses, native iOS istemcisi ve çok servisli backend. |
+| **Oyun platformu** | Go RGS çekirdekli modüler monolit, oyun istemcisi ile sunucu arasında tipli sözleşmeler, stüdyo araçları ve bulguları dosyalanmak yerine kapanışa kadar izlenen bir güvenlik inceleme döngüsü. |
+| **Bankacılık sektörü entegrasyonları** | Go ile Polonya ve AB finansal entegrasyonları: fatura ve takas şemaları, taşıyıcıdan bağımsız gönderi ağ geçidi, çok kiracılı SaaS. Yoğun doğrulama, sürümlenen şemalar ve idempotent olmayan hiçbir retry yok. |
 
 ## Teknoloji
 
